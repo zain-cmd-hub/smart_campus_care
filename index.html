@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Care Prototype</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero__content">
+            <p class="eyebrow">Smart Campus Care</p>
+            <h1>Mobile app prototype to streamline problem reporting and rapid response inside the campus community.</h1>
+            <p class="lede">Below is an interactive-style mockup covering the full journey: student splash through admin analytics and final system flow.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="grid">
+            <article class="screen">
+                <h2>Splash / Welcome</h2>
+                <div class="phone">
+                    <div class="logo">SCC</div>
+                    <p class="caption">Report campus problems easily</p>
+                    <div class="pulse"></div>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Login</h2>
+                <div class="phone">
+                    <h3>Welcome back</h3>
+                    <label>Student ID</label>
+                    <div class="input"></div>
+                    <label>Password</label>
+                    <div class="input"></div>
+                    <button class="primary">Login</button>
+                    <button class="ghost">Login as Admin</button>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Student Dashboard</h2>
+                <div class="phone">
+                    <p class="welcome">Hi, Aisha</p>
+                    <div class="card stack">
+                        <button>New Complaint</button>
+                        <button>My Complaints</button>
+                        <button>Profile</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>New Complaint</h2>
+                <div class="phone form">
+                    <label>Category</label>
+                    <div class="dropdown">Electrical ▾</div>
+                    <label>Description</label>
+                    <div class="text-area"></div>
+                    <button class="secondary">Upload Photo</button>
+                    <button class="primary">Submit</button>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Location Selection</h2>
+                <div class="phone form">
+                    <label>Block</label>
+                    <div class="dropdown">Block B ▾</div>
+                    <label>Floor</label>
+                    <div class="dropdown">2nd Floor ▾</div>
+                    <label>Room</label>
+                    <div class="dropdown">B-204 ▾</div>
+                    <div class="gps">
+                        <span class="icon">📍</span>
+                        <span>Use GPS</span>
+                    </div>
+                    <button class="primary">Confirm</button>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Complaint Status</h2>
+                <div class="phone">
+                    <div class="status-card">
+                        <p>#CMP-1923</p>
+                        <h3>Water leakage</h3>
+                        <p>Lab Block · 3rd Floor</p>
+                        <div class="status-tags">
+                            <span>Pending</span>
+                            <span>In Progress</span>
+                            <span class="active">Solved</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Feedback & Rating</h2>
+                <div class="phone form">
+                    <div class="stars">
+                        <span>★</span><span>★</span><span>★</span><span>☆</span><span>☆</span>
+                    </div>
+                    <label>Feedback</label>
+                    <div class="text-area small"></div>
+                    <button class="primary">Submit Feedback</button>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Admin Dashboard</h2>
+                <div class="phone">
+                    <div class="stat-pills">
+                        <span>Total 128</span>
+                        <span>Pending 24</span>
+                        <span>Resolved 90</span>
+                    </div>
+                    <div class="list">
+                        <div>
+                            <strong>Electrical</strong>
+                            <p>Short circuit · Block A</p>
+                        </div>
+                        <div>
+                            <strong>Water</strong>
+                            <p>Leak · Hostel 3</p>
+                        </div>
+                        <div>
+                            <strong>Cleaning</strong>
+                            <p>Auditorium foyer</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Worker Assign</h2>
+                <div class="phone form">
+                    <p>Complaint #CMP-1931</p>
+                    <p>Broken chair · Library</p>
+                    <label>Select Worker</label>
+                    <div class="dropdown">Sanjay (Furniture) ▾</div>
+                    <div class="dual">
+                        <button class="secondary">Assign</button>
+                        <button class="primary">Mark Solved</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="screen">
+                <h2>Reports & Analytics</h2>
+                <div class="phone analytics">
+                    <div class="bars">
+                        <div style="height:70%"></div>
+                        <div style="height:90%"></div>
+                        <div style="height:45%"></div>
+                        <div style="height:80%"></div>
+                    </div>
+                    <div class="pie">
+                        <div class="slice electrical"></div>
+                        <div class="slice water"></div>
+                        <div class="slice cleaning"></div>
+                    </div>
+                    <div class="legend">
+                        <span class="electrical">Electrical</span>
+                        <span class="water">Water</span>
+                        <span class="cleaning">Cleaning</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="flow">
+            <h2>System Flow Diagram</h2>
+            <div class="flow__chart">
+                <div class="node">Student</div>
+                <div class="arrow">→</div>
+                <div class="node">Mobile App</div>
+                <div class="arrow">→</div>
+                <div class="node">Database</div>
+                <div class="arrow">→</div>
+                <div class="node">Admin</div>
+                <div class="arrow">→</div>
+                <div class="node">Maintenance Worker</div>
+                <div class="arrow">→</div>
+                <div class="node">Solved Issue</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,5 +1,5 @@
 # 🏫 Smart Campus Care
 
-**Smart Campus Care** is a mobile app prototype designed for **Amity University** to simplify campus issue reporting and maintenance management. It enables students to report problems, track complaint status in real time, provide feedback, while allowing administrators to assign maintenance staff and monitor analytics through a centralized dashboard.
+**Smart Campus Care** is an innovative campus management platform built for **Amity University Madhya Pradesh** to digitize issue reporting, complaint tracking, and maintenance operations. The platform empowers students to report campus problems, monitor complaint status in real time, and submit feedback, while providing administrators with a centralized dashboard to assign maintenance staff, analyze reports, and improve service efficiency.
 
 > **Status:** 🎨 UI/UX Prototype (Concept Project)# smart_campus_care
